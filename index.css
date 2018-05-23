@@ -1,7 +1,27 @@
-img {
+.hero img {
   width: 100%;
 }
 
-h1 {
-  color: #38a7ce;
+.top-bar li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.top-bar ul {
+  margin: 0px 120px;
+}
+
+.top-bar img {
+  width: 45px;
+}
+
+.image {
+  position: absolute;
+  z-index: 2;
+}
+
+.image img{
+  opacity: 0.3;
+  width: 100%;
 }
